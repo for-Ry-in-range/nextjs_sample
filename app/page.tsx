@@ -53,7 +53,6 @@ export default function Home() {
             <SignedIn>
               <UserButton />
             </SignedIn>
-            {children}
           </body>
         </html>
       </ClerkProvider>
