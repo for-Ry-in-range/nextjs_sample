@@ -12,6 +12,7 @@ import {
   SignInButton,
   SignedIn,
   SignedOut,
+  SignUp,
   UserButton
 } from '@clerk/nextjs';
 import './globals.css';
@@ -44,7 +45,7 @@ export default function Home() {
         </div>
       </div>
 
-      <ClerkProvider>
+      <ClerkProvider publishableKey={'pk_test_dGVhY2hpbmctZG9nLTUxLmNsZXJrLmFjY291bnRzLmRldiQ'}>
         <html lang='en'>
           <body>
             <SignedOut>
