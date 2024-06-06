@@ -8,12 +8,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import {
-  ClerkProvider,
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  SignUp,
-  UserButton
+  SignUp
 } from '@clerk/nextjs';
 import './globals.css';
 
@@ -45,7 +40,9 @@ export default function Home() {
         </div>
       </div>
 
-      <ClerkProvider publishableKey={'pk_test_dGVhY2hpbmctZG9nLTUxLmNsZXJrLmFjY291bnRzLmRldiQ'}>
+      <SignUp />
+
+      {/*<ClerkProvider publishableKey={'pk_test_dGVhY2hpbmctZG9nLTUxLmNsZXJrLmFjY291bnRzLmRldiQ'}>
         <html lang='en'>
           <body>
             <SignedOut>
@@ -56,7 +53,7 @@ export default function Home() {
             </SignedIn>
           </body>
         </html>
-      </ClerkProvider>
+      </ClerkProvider>*/}
       
       <Button variant="outline">My First Button</Button>
 
