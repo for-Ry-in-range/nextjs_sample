@@ -61,14 +61,6 @@ export async function POST(req: Request) {
   console.log(`Webhook with and ID of ${id} and type of ${eventType}`)
   console.log('Webhook body:', body)
 
-  interface EmailAddress {
-    email_address: string;
-  }
-
-  interface UserJSON {
-    email_addresses: EmailAddress[];
-  }
-
   const a = await prisma.user.create({
     data: {
       email: evt.data.email_addresses[0].email_address
