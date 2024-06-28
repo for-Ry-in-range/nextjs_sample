@@ -1,1 +1,1 @@
-
+export { WarmReferralToolLandingPage } from './WarmReferralToolLandingPage';
