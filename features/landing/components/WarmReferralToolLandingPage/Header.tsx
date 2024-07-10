@@ -16,7 +16,7 @@ const logoWidth = logoHeight * ratio;
 
 export function Header() {
   return (
-    <header className="fixed top-0 z-50 w-full bg-white shadow-sm dark:bg-gray-950 dark:text-gray-50">
+    <header className="fixed top-0 z-50 w-full bg-white shadow-sm dark:bg-gray-950 dark:text-gray-50 flex justify-center">
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <div className="flex items-center gap-3">
           <Link className="flex items-center gap-2" href="/">
@@ -33,7 +33,7 @@ export function Header() {
             href="/apps/ai-reader"
           >
             <BookIcon className="relative bottom-px h-5 w-5" />
-            <span>AI Reader</span>
+            <span>Warm Referral Finder</span>
           </Link>
         </div>
         <div className="flex items-center gap-2">
