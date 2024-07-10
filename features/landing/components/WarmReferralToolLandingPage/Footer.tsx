@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export function Footer() {
   return (
-    <footer className="bg-gray-900 py-8 text-gray-400 sm:py-12">
+    <footer className="bg-gray-900 py-8 text-gray-400 sm:py-12 flex justify-center">
       <div className="container mx-auto flex flex-col items-center justify-between space-y-4 px-4 sm:flex-row sm:space-y-0 sm:px-6 lg:px-8">
         <div className="flex items-center space-x-4">
           <Link href="/">
