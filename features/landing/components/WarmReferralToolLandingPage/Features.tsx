@@ -7,7 +7,7 @@
 export function Features() {
   return (
     <div className="flex flex-col gap-12">
-      <section className="w-full">
+      <section className="w-full flex justify-center">
         <div className="container px-4 md:px-6">
           <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
             <div className="flex flex-col justify-center space-y-4">
@@ -30,7 +30,7 @@ export function Features() {
           </div>
         </div>
       </section>
-      <section className="w-full">
+      <section className="w-full flex justify-center">
         <div className="container px-4 md:px-6">
           <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
             <div className="flex flex-col justify-center space-y-4">
@@ -53,7 +53,7 @@ export function Features() {
           </div>
         </div>
       </section>
-      <section className="w-full">
+      <section className="w-full flex justify-center">
         <div className="container px-4 md:px-6">
           <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
             <div className="flex flex-col justify-center space-y-4">
@@ -76,7 +76,7 @@ export function Features() {
           </div>
         </div>
       </section>
-      <section className="w-full">
+      <section className="w-full flex justify-center">
         <div className="container px-4 md:px-6">
           <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
             <div className="flex flex-col justify-center space-y-4">
@@ -99,7 +99,7 @@ export function Features() {
           </div>
         </div>
       </section>
-      <section className="w-full">
+      <section className="w-full flex justify-center">
         <div className="container px-4 md:px-6">
           <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
             <div className="flex flex-col justify-center space-y-4">
