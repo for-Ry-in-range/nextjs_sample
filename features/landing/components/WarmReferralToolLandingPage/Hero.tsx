@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/button';
 
 export function Hero() {
   return (
-    <section className="w-full pt-24 md:pt-24 lg:pt-32 xl:pt-48">
+    <section className="w-full pt-24 md:pt-24 lg:pt-32 xl:pt-48 flex justify-center">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center space-y-6 text-center">
           <div className="space-y-4">
