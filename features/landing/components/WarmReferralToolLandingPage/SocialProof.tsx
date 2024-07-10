@@ -6,7 +6,7 @@
 const grayscale = 'grayscale(100%)';
 export function SocialProof() {
   return (
-    <section className="w-full py-12 md:py-12 lg:py-16">
+    <section className="w-full py-12 md:py-12 lg:py-16 flex justify-center">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-8">
           <h2 className="text-xl font-semibold tracking-tight text-gray-400 md:text-xl">
